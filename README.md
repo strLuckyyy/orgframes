@@ -14,13 +14,37 @@ Atualmente essa automação consegue:
 
 ---
 
+## Instalação
+
+Para que o comando `orgframes` funcione em qualquer pasta do seu computador, siga os passos abaixo:
+
+**1. Clone o repositório**
+Baixe ou clone este repositório em uma pasta da sua preferência:
+
+```bash
+git clone https://github.com/strLuckyyy/orgframes.git
+```
+
+**2. Adicione ao PATH do Windows**
+Para rodar o script pelo CMD de qualquer diretório, você precisa adicionar a pasta da automação às Variáveis de Ambiente do sistema:
+
+1. Pressione a tecla `Windows` e pesquise por **"Editar as variáveis de ambiente do sistema"**.
+2. Na janela que abrir, clique no botão **Variáveis de Ambiente**.
+3. Na seção "Variáveis do sistema" (parte inferior), procure pela variável **Path**, selecione-a e clique em **Editar**.
+4. Clique em **Novo** e cole o caminho completo da pasta onde você clonou a automação (ex: `C:\Scripts\orgframes`).
+5. Clique em **OK** em todas as janelas para salvar.
+
+**3. Teste a instalação**
+Feche todos os terminais abertos. Abra um novo **CMD** (Prompt de Comando) na pasta onde estão os seus frames do Blender e chame a automação.
+
+---
+
 ## Como usar
 
 A automação funciona pelo CMD. A estrutura básica do comando é:
 
 ```bash
 orgframes NomePasta -ninout/-inout -d
-
 ```
 
 ### Tags e Parâmetros
