@@ -16,7 +16,7 @@ Atualmente essa automação consegue:
 
 ## Requisitos
 
-- Python 3.x instalado e adicionado às variáveis de ambiente (PATH) do sistema.
+- **Python 3.x** instalado e adicionado às variáveis de ambiente (**PATH**) do sistema.
 
 ---
 
