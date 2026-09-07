@@ -14,6 +14,12 @@ Atualmente essa automação consegue:
 
 ---
 
+## Requisitos
+
+- Python 3.x instalado e adicionado às variáveis de ambiente (PATH) do sistema.
+
+---
+
 ## Instalação
 
 Para que o comando `orgframes` funcione em qualquer pasta do seu computador, siga os passos abaixo:

@@ -1,1 +1,1 @@
-@python C:\MyAutomation\orgframes\orgframes.py %*
+@python "%~dp0orgframes.py" %*
